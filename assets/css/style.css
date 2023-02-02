@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .container{
@@ -16,24 +16,47 @@ body{
 }
 
 .calculadora{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    width: 50vw; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+ 
+    padding: 2rem;
+    background-color: #4e0d8b;
+    border-radius: 2.5rem;          
+}
 
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 5px;
-            grid-template-rows: auto repeat(5);
-            width: 300px; 
-            
+.input{
+    background-color: rgb(32, 25, 73);
+    grid-column: 1/5;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border-radius: 1rem;
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 20px 0;
+    text-align: right;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 button{
-    width: 80px;
-    height: 80px;
-    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(140, 41, 233);
     cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.btn-color{
+    background-color: rgb(103, 6, 194);
 }
 
 button:hover{
@@ -46,19 +69,6 @@ button:hover{
     height: auto;
 }
 
-.input{
-    background-color: white;
-    border: 1px solid white;
-    grid-column: 1/5;
-    padding: 0 10px;
 
-}
 
-input[type=text]{
-    width: 100%;
-    padding: 20px 0;
-    text-align: right;
-    outline: 0;
-    border: none;
-}
 
