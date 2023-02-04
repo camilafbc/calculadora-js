@@ -31,12 +31,11 @@ body{
     padding: 0 10px;
     margin-bottom: 15px;
     border-radius: 1rem;
-
 }
 
 input[type=text]{
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: right;
     outline: 0;
     border: none;
@@ -55,17 +54,17 @@ button{
     font-size: 1.5rem;
 }
 
-.btn-color{
-    background-color: rgb(103, 6, 194);
-}
-
 button:hover{
     opacity: 0.6;
 }
 
+.btn-color{
+    background-color: rgb(103, 6, 194);
+}
+
 #result-btn{
     grid-column: 4/5;
-    grid-row: 3/7;
+    grid-row: 4/7;
     height: auto;
 }
 
