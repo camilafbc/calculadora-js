@@ -6,7 +6,7 @@ Calculadora que realiza as quatro operações matemáticas básicas, permite pro
 
 ## Conceitos trabalhados:
 
-*Manipulação do DOM
-*Funções
-*Eventos no JS
-*Uso de condicionais e operadores lógicos
+* Manipulação do DOM
+* Funções
+* Eventos no JS
+* Uso de condicionais e operadores lógicos
